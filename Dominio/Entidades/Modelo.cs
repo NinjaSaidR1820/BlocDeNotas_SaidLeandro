@@ -8,7 +8,7 @@ namespace Dominio.Entidades
 {
     public interface Modelo<T>
     {
-        void Añadir(T t, T g);
-        string Leer(T t);
+        void Add(T t, T g);
+        string Read(T t);
     }
 }

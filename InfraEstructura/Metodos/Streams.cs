@@ -15,6 +15,12 @@ namespace InfraEstructura.Metodos
         {
 
         }
+
+        public void Add(string t, string g)
+        {
+            throw new NotImplementedException();
+        }
+
         public void Añadir(string texto, string ruta)
         {
             try
@@ -50,6 +56,11 @@ namespace InfraEstructura.Metodos
 
                 throw;
             }
+        }
+
+        public string Read(string t)
+        {
+            throw new NotImplementedException();
         }
     }
 }

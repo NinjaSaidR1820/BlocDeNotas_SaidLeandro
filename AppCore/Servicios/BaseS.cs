@@ -18,7 +18,7 @@ namespace AppCore.Servicios
 
         public void Añadir(T t, T g)
         {
-            Modelo.Añadir(t, g);
+            Modelo.Add(t, g);
         }
 
         public string Leer(T t)
